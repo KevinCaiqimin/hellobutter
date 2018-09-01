@@ -1,0 +1,127 @@
+
+1. 获取个人战况信息
+{
+    rollsInfo = {
+        {
+            roomId = "xxx",
+            rollNO = 0,
+            winnerUid = 0,
+            battleInfo = {
+                {
+                    uid = 0,
+                    pos = 0,
+                    userBaseInfo = {
+                        uid = 0,
+                        nation = 11,
+                        nickName = "xxx",
+                        headUrl = "http://xxx",
+                        lv = 0,
+                    }
+                    defendChars = [
+                        {
+                            charId = "xxx",
+                            charLv = 0,
+                            charEvoLv = 0,
+                        },
+                        ...
+                    ],
+                },
+                {
+                    uid = 0,
+                    pos = 0,
+                    userBaseInfo = {
+                        uid = 0,
+                        nation = 11,
+                        nickName = "xxx",
+                        headUrl = "http://xxx",
+                        lv = 0,
+                    }
+                    defendChars = [
+                        {
+                            charId = "xxx",
+                            charLv = 0,
+                            charEvoLv = 0,
+                        },
+                        ...
+                    ],
+                },
+                {
+                    uid = 0,
+                    pos = 0,
+                    userBaseInfo = {
+                        uid = 0,
+                        nation = 11,
+                        nickName = "xxx",
+                        headUrl = "http://xxx",
+                        lv = 0,
+                    }
+                    defendChars = [
+                        {
+                            charId = "xxx",
+                            charLv = 0,
+                            charEvoLv = 0,
+                        },
+                        ...
+                    ],
+                },
+            }，
+        },
+        ...
+    }
+}
+
+2. 获取赛事战况信息
+{
+    rollsWinners = {
+        {
+            rollNO = 0,
+            winnersInfo = {
+                {
+                    uid = 0,
+                    winTime = 0, #秒级别时间戳
+                    roomId = "xxx",
+                },
+                {
+                    uid = 0,
+                    winTime = 0, #秒级别时间戳
+                    roomId = "xxx",
+                },
+                ...
+            }，
+        },
+        {
+            rollNO = 1,
+            winnersInfo = {
+                {
+                    uid = 0,
+                    winTime = 0, #秒级别时间戳
+                    roomId = "xxx",
+                },
+                {
+                    uid = 0,
+                    winTime = 0, #秒级别时间戳
+                    roomId = "xxx",
+                },
+                ...
+            }，
+        },
+        ...
+    }
+    usersBaseInfo = {
+        {
+            uid = 0,
+            nation = 11,
+            nickName = "xxx",
+            headUrl = "http://xxx",
+            lv = 0,
+        },
+        {
+            uid = 0,
+            nation = 11,
+            nickName = "xxx",
+            headUrl = "http://xxx",
+            lv = 0,
+        },
+        ...
+    }
+}
