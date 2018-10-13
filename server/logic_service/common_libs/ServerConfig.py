@@ -93,7 +93,7 @@ class ServerConfigLoader:
 
     @staticmethod
     def locate_path_root( ):
-        paths = ["/home/jodo/etc/", os.path.expanduser("~/jodo/etc/"), os.path.expanduser("~/etc/")]
+        paths = ["/home/etc/", os.path.expanduser("~/etc/"), os.path.expanduser("~/etc/")]
         for p in paths:
             if os.path.exists( p ): return p
         return ""

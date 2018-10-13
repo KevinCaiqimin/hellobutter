@@ -217,8 +217,7 @@ if __name__ == "__main__":
     elif len(sys.argv) == 2:
         svr_config = common_libs.ServerConfigLoader.load( sys.argv[1] )
     else:
-        svr_config = common_libs.ServerConfigLoader.load_by_name( "match_service" )
-
+        svr_config = common_libs.ServerConfigLoader.load_by_name( "gateway_service" )
 
     bridge = Bridge()
 
